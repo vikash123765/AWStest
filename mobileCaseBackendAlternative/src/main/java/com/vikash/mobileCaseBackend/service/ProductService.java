@@ -156,7 +156,7 @@ public class ProductService {
             repoProduct.save(product);
 
 
-            return "product with id: " + id + " price was updated";
+            return "Product with id: " + id + " price was updated";
 
 
         } else {
