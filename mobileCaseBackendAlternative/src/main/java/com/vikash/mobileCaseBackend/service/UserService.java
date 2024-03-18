@@ -110,7 +110,7 @@ public class UserService {
 
         if (authService.authenticateSignOut(token)) {
             authService.deleteToken(token);
-            return new ResponseEntity<>("sign out successfull", HttpStatus.OK);
+            return new ResponseEntity<>("sign out successful", HttpStatus.OK);
 
         } else {
             return new ResponseEntity<>("un authorized access", HttpStatus.UNAUTHORIZED);
