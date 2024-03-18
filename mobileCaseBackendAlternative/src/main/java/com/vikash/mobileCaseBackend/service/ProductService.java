@@ -285,7 +285,7 @@ public class ProductService {
                 repoProduct.save(product);
             }
             //  repoProduct.saveAll(products);
-            return "products with ids: " + productIds + "was marked as unavailable";
+            return "products with Ids: " + productIds + "was marked as unavailable";
 
         } else {
             return "Un Authenticated access!!!";
