@@ -37,7 +37,7 @@ public class AdminService {
 
         if (authService.authenticateSignOut(token)) {
             authService.deleteToken(token);
-            return  new ResponseEntity<>( "sign out successfull", HttpStatus.OK);
+            return  new ResponseEntity<>( "sign out sucessfull", HttpStatus.OK);
 
         } else {
             return new ResponseEntity<>("un authorized access",HttpStatus.UNAUTHORIZED);
