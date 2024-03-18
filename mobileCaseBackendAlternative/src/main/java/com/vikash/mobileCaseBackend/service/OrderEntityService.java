@@ -654,7 +654,7 @@ public class OrderEntityService {
             response.put("shippingCost", 280 * costMultiplier);
             response.put("message", "Tracable delivery will take 2-3 business days");
         } else {
-            response.put("Error", "Invalid package weight or parameters");
+            response.put("error", "Invalid package weight or parameters");
             return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
         }
 

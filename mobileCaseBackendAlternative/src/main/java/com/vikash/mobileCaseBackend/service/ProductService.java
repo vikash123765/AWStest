@@ -156,7 +156,7 @@ public class ProductService {
             repoProduct.save(product);
 
 
-            return "Prroduct with id: " + id + " price was updated";
+            return "product with id: " + id + " price was updated";
 
 
         } else {
@@ -203,7 +203,7 @@ public class ProductService {
                 return "Order not found.";
             }
         } else {
-            return "Unnauthenticated access!!!";
+            return "Unauthenticated access!!!";
         }
     }
 
