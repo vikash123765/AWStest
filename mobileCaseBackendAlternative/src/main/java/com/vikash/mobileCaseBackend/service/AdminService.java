@@ -40,7 +40,7 @@ public class AdminService {
             return  new ResponseEntity<>( "sign out sucessfulll", HttpStatus.OK);
 
         } else {
-            return new ResponseEntity<>("un authorized access",HttpStatus.UNAUTHORIZED);
+            return new ResponseEntity<>("un authborized access",HttpStatus.UNAUTHORIZED);
         }
 
 
