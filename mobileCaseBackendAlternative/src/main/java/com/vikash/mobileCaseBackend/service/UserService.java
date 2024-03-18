@@ -113,7 +113,7 @@ public class UserService {
             return new ResponseEntity<>("sign out successful", HttpStatus.OK);
 
         } else {
-            return new ResponseEntity<>("un authorized access", HttpStatus.UNAUTHORIZED);
+            return new ResponseEntity<>("un Agit uthorized access", HttpStatus.UNAUTHORIZED);
         }
 
 
