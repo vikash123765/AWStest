@@ -51,7 +51,7 @@ public class ProductService {
             return "products added";
 
         } else {
-            return "Un Authenticated accxess!!!";
+            return "Un Authenticated access!!!";
         }
 
     }
@@ -76,7 +76,7 @@ public class ProductService {
             return "all products deleted";
 
         } else {
-            return "Un Authenticated accecss!!!";
+            return "Un Authenticated access!!!";
         }
 
     }
@@ -285,7 +285,7 @@ public class ProductService {
                 repoProduct.save(product);
             }
             //  repoProduct.saveAll(products);
-            return "products with Ids: " + productIds + "was marked as unavailable";
+            return "products with ids: " + productIds + "was marked as unavailable";
 
         } else {
             return "Un Authenticated access!!!";
