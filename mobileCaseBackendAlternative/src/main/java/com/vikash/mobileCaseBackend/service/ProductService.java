@@ -221,7 +221,7 @@ public class ProductService {
 
             repoProduct.save(product);
 
-            return "product with id: " + productId + "was marked as available";
+            return "product with idd: " + productId + "was marked as available";
 
 
         } else {
